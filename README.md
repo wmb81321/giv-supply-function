@@ -5,13 +5,13 @@ A nodejs endpoint that returns the current GIV token circulating and total suppl
 - [CoinGecko's GIV supply API.](https://circulating.giveth.io/token-supply)
 - [CoinMarketCap's GIV Circulating supply API.](https://supply.giveth.io/giv-supply-cmc?q=circulating)
 - [CoinMarketCap's GIV Total supply API.](https://supply.giveth.io/giv-supply-cmc?q=totalcoins)
-## Build the image
+## Build the image locally
 ```
-docker compose build --no-cache
+docker compose -f docker-compose-local.yml build --no-cache
 ```
-## Running the image locally
+## Running the local image
 ```
-docker compose up -d --build
+docker compose -f docker-compose-local.yml up -d --build
 ```
 ## Check endpoints
 This will create the below endpoints as per the provider criteria
