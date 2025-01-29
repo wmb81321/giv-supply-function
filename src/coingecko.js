@@ -13,30 +13,36 @@ const Token_optimism = '0x528CDc92eAB044E1E39FE43B9514bfdAB4412B98';
 const Token_polygonzkEVM = '0xddafb91475bbf6210a151fa911ac8fda7de46ec2';
 
 const mainnet_sc = [
-  "0x87dE995F6744B75bBe0255A973081142aDb61f4d", // Token Distro
-  "0xf924fF0f192f0c7c073161e0d62CE7635114e74f", // Liquidity Safe
-  "0x2B0ee142dCFE7C2dD150cDbd7B6832F6e9977f51", // OneGIV Liquidity Multisig
+    "0x87dE995F6744B75bBe0255A973081142aDb61f4d", // Token Distro
+    "0xf924fF0f192f0c7c073161e0d62CE7635114e74f", // Liquidity Safe
+    "0x0018C6413BFE5430ff9ba4bD7ac3B6AA89BEBD9b", // nrGIV Multisig
+    "0x2B0ee142dCFE7C2dD150cDbd7B6832F6e9977f51", // OneGIV Liquidity Multisig
+    "0xd10BAC02a02747cB293972f99981F4Faf78E1626"' // GIVgarden Multisig
 ];
 
 const xdai_sc = [
-  "0xc0dbDcA66a0636236fAbe1B3C16B1bD4C84bB1E1", // Token Distro
-  "0xe70494225312c6b1167c15134dab66730f36708d", // Giveth Treasury
-  "0xf4ef9a155dd268e321afa7b9391e0602a7b09588", // GIVgarden Common Pool
-  "0xf924fF0f192f0c7c073161e0d62CE7635114e74f", // Liquidity Safe
-  "0xd10BAC02a02747cB293972f99981F4Faf78E1626", // GIVgarden Multisig Wallet
-  "0x0018C6413BFE5430ff9ba4bD7ac3B6AA89BEBD9b", // nrGIV multisig
+    "0xc0dbDcA66a0636236fAbe1B3C16B1bD4C84bB1E1", // Token Distro
+    "0xf924fF0f192f0c7c073161e0d62CE7635114e74f", // Liquidity Safe
+    "0xe70494225312c6b1167c15134dab66730f36708d", // rGIV Multisig
+    "0x0018C6413BFE5430ff9ba4bD7ac3B6AA89BEBD9b", // nrGIV multisig
+    "0xf4ef9a155dd268e321afa7b9391e0602a7b09588", // Old GIVgarden 
+    "0xd10BAC02a02747cB293972f99981F4Faf78E1626", // New GIVgarden Multisig Wallet
+
+   
 ];
 
 const optimism_sc = [
-  '0xE3Ac7b3e6B4065f4765d76fDC215606483BF3bD1', // Token Distro
-  '0xf924fF0f192f0c7c073161e0d62CE7635114e74f', // Liquidity Safe
-  "0x0018C6413BFE5430ff9ba4bD7ac3B6AA89BEBD9b", // nrGIV multisig
+    "0xE3Ac7b3e6B4065f4765d76fDC215606483BF3bD1", // Token Distro
+    "0xf924fF0f192f0c7c073161e0d62CE7635114e74f", // Liquidity Safe
+    "0x0018C6413BFE5430ff9ba4bD7ac3B6AA89BEBD9b", // nrGIV multisig
+    "0xd10BAC02a02747cB293972f99981F4Faf78E1626", // GIV Garden Multisig
 ];
 
 const PolygonzkEVM_sc = [
-  '0x4fB9B10ECDe1b048DBC79aBEAB3793edc93a0d54', // Token Distro
-  '0xaF4D68B8084b01D2c8120120497511035A2ea3a1', // Giveth Multisig
-  '0xa1769a425EA1197f32d8C3e0fbE3F92EaDACC21A', // Multisig liquidity
+    "0x4fB9B10ECDe1b048DBC79aBEAB3793edc93a0d54", // Token Distro
+    "0xf924fF0f192f0c7c073161e0d62CE7635114e74f", // Liquidity Safe
+    "0x0018C6413BFE5430ff9ba4bD7ac3B6AA89BEBD9b", // rGIV Multisig
+    "0xa1769a425EA1197f32d8C3e0fbE3F92EaDACC21A", // Alternative Multisig liquidity
 ];
 
 async function calculateTokenSupplyCG() {
