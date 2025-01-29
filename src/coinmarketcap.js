@@ -44,6 +44,8 @@ const optimism_sc = [
     "0xf924fF0f192f0c7c073161e0d62CE7635114e74f", // Liquidity Safe
     "0x0018C6413BFE5430ff9ba4bD7ac3B6AA89BEBD9b", // nrGIV multisig
     "0xd10BAC02a02747cB293972f99981F4Faf78E1626", // GIV Garden Multisig
+    "0x1D68124e65faFC907325e3EDbF8c4d84499DAa8b", // Solana Bridge Gateway
+
 ];
 
 const PolygonzkEVM_sc = [
