@@ -6,8 +6,8 @@ const urlMainetProvider = "https://rpc.ankr.com/eth";
 const urlOptimismProvider = "https://mainnet.optimism.io";
 const urlPolygonzkEVMProvider = "https://rpc.ankr.com/polygon_zkevm";
 const urlPolygonzkEVMProvider = "TBD";
-// ABI files
 
+// ABI files
 const TokenArtifact = require("./abi/GIV.json");
 const BridgedTokenArtifact = require("./abi/GIV-Bridged-L2.json");
 
