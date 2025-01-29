@@ -18,6 +18,9 @@ const mainnet_sc = [
     "0x0018C6413BFE5430ff9ba4bD7ac3B6AA89BEBD9b", // nrGIV Multisig
     "0x2B0ee142dCFE7C2dD150cDbd7B6832F6e9977f51", // OneGIV Liquidity Multisig
     "0xd10BAC02a02747cB293972f99981F4Faf78E1626"' // GIVgarden Multisig
+    "0x88ad09518695c6c3712ac10a214be5109a655671", // Gnosis OmniBridge
+    "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1", // Optimism Gateway
+    "0x2a3DD3EB832aF982ec71669E178424b10Dca2EDe", // Polygon ZKEVM Bridge
 ];
 
 const xdai_sc = [
